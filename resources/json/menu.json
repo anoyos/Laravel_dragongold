@@ -1,0 +1,259 @@
+{
+    "menu": [
+        {
+            "url": "admin/dashboard",
+            "name": "Dashboard",
+            "i18n": "nav.content_layout",
+            "icon" : "feather icon-home"
+        },
+        {
+            "url": "admin/users",
+            "name": "User Management",
+            "i18n": "nav.content_layout",
+            "icon" : "feather icon-users",
+            "submenu" : [
+                {
+                    "url": "admin/users",
+                    "name": "All Users",
+                    "i18n": "nav.content_layout",
+                    "icon": "feather icon-users"
+                },
+                {
+                    "url": "admin/users/active",
+                    "name": "Active Users",
+                    "i18n": "nav.content_layout",
+                    "icon": "feather icon-user-check"
+                },
+                {
+                    "url": "admin/users/blocked",
+                    "name": "Blocked Users",
+                    "i18n": "nav.content_layout",
+                    "icon": "feather icon-user-x"
+                },
+                {
+                    "url": "admin/users/unverified",
+                    "name": "Unverified Users",
+                    "i18n": "nav.content_layout",
+                    "icon": "feather icon-user-minus"
+                }
+            ]
+        },
+        {
+            "url": "admin/transactions",
+            "name": "Transactions",
+            "i18n": "nav.content_layout",
+            "icon": "feather icon-repeat",
+            "submenu": [
+                {
+                    "url": "admin/transactions",
+                    "name": "All Transactions",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-file-text"
+                },
+                {
+                    "url": "admin/transactions/credit",
+                    "name": "Credits",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-file-text"
+                },
+                {
+                    "url": "admin/transactions/referral",
+                    "name": "Referrals",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-file-text"
+                },
+                {
+                    "url": "admin/transactions/leadership",
+                    "name": "Leaderships",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-file-text"
+                }
+            ]
+        },
+        {
+            "url": "admin/deposits",
+            "name": "Deposits",
+            "i18n": "nav.content_layout",
+            "icon": "feather icon-trending-down",
+            "submenu": [
+                {
+                    "url": "admin/deposits",
+                    "name": "All Deposits",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-file-text"
+                },
+                {
+                    "url": "admin/deposits/active",
+                    "name": "Active Deposits",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-file-text"
+                },
+                {
+                    "url": "admin/deposits/pending",
+                    "name": "Pending Deposits",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-file-text"
+                },
+                {
+                    "url": "admin/deposits/confirming",
+                    "name": "Confirming Deposits",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-file-text"
+                },
+                {
+                    "url": "admin/deposits/canceled",
+                    "name": "Canceled Deposits",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-file-text"
+                },
+                {
+                    "url": "admin/deposits/assisted",
+                    "name": "Assisted Deposits",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-file-text"
+                }
+            ]
+        },
+        {
+            "url": "admin/withdrawals",
+            "name": "Withdrawals",
+            "i18n": "nav.content_layout",
+            "icon": "feather icon-trending-up",
+            "submenu": [
+                {
+                    "url": "admin/withdrawals",
+                    "name": "All Withdrawals",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-file-text"
+                },
+                {
+                    "url": "admin/withdrawals/active",
+                    "name": "Active Withdrawals",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-file-text"
+                },
+                {
+                    "url": "admin/withdrawals/pending",
+                    "name": "Pending Withdrawals",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-file-text"
+                },
+                {
+                    "url": "admin/withdrawals/canceled",
+                    "name": "Canceled Withdrawals",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-file-text"
+                }
+            ]
+        },
+        {
+            "url": "admin/news",
+            "name": "All News",
+            "i18n": "nav.full_layout",
+            "icon": "feather icon-file-text"
+        },   
+        {
+            "url": "admin/faqs",
+            "name": "Faqs",
+            "i18n": "nav.full_layout",
+            "icon": "fa fa-question-circle"
+        },
+        {
+            "url": "admin/audio",
+            "name": "Audio",
+            "i18n": "nav.content_layout",
+            "icon": "feather icon-music",
+            "submenu": [
+                {
+                    "url": "admin/audio/music",
+                    "name": "Music",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-volume-1"
+                },
+                {
+                    "url": "admin/audio/system",
+                    "name": "System",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-volume-2"
+                }
+            ]
+        },
+        {
+            "url": "admin/notifications",
+            "name": "Notifications",
+            "i18n": "nav.content_layout",
+            "icon": "feather icon-bell",
+            "submenu": [
+                {
+                    "url": "admin/notifications/unread",
+                    "name": "Unread Notifications",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-bell"
+                },
+                {
+                    "url": "admin/notifications/read",
+                    "name": "Read Notifications",
+                    "i18n": "nav.full_layout",
+                    "icon": "feather icon-bell"
+                }
+            ]
+        },
+        {
+            "url": "admin/translation",
+            "name": "Translation",
+            "slug": "translation",
+            "icon": "feather icon-folder"
+        },
+        {
+            "url": "admin/currencies",
+            "name": "Currencies",
+            "i18n": "nav.currencies",
+            "icon": "fa fa-money"
+        },
+        {
+            "url": "admin/pages",
+            "name": "Pages",
+            "i18n": "nav.pages",
+            "icon": "feather icon-file-text"
+        },
+        {
+            "url": "admin/language",
+            "name": "Language",
+            "i18n": "nav.language",
+            "icon": "fa fa-globe"
+        },
+        {
+            "url": "admin/admin",
+            "name": "Admin",
+            "i18n": "nav.admin",
+            "icon": "feather icon-user"
+        },
+                {
+            "url": "admin/settings",
+            "name": "Settings",
+            "i18n": "nav.settings",
+            "icon": "feather icon-settings",
+            "submenu": [
+                {
+                    "url": "admin/settings/general",
+                    "name": "General Settings",
+                    "i18n": "nav.settings_general",
+                    "icon": "feather icon-link"
+                },
+                {
+                    "url": "admin/settings/address",
+                    "name": "Company Address",
+                    "i18n": "nav.settings_address",
+                    "icon": "feather icon-mail"
+                },
+                {
+                    "url": "admin/settings/earning",
+                    "name": "Earning/ Affiliate",
+                    "i18n": "nav.settings_earning",
+                    "icon": "feather icon-bar-chart"
+                }
+                
+            ]
+        }
+    ]
+}

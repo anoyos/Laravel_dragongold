@@ -1,0 +1,345 @@
+[{
+        "label": "<span class=\"icon icon-orange\"><img src=\"/user_assets/images/bitcoin.png\" alt=\"btc\"></span><p>Bitcoin</p>",
+        "value": {
+            "data": {
+                "id": 3,
+                "name": "bitcoin",
+                "deposit": true,
+                "currency": "btc",
+                "is_fiat": false,
+                "additional_field": null
+            },
+            "limits": {
+                "invest": {
+                    "min": "0.0015",
+                    "max": "4.0"
+                },
+                "reinvest": {
+                    "min": "0.0015",
+                    "max": "4.0"
+                }
+            },
+            "meta": {
+                "exchange": 10181.51,
+                "balance": "0.0"
+            }
+        }
+    }, {
+        "label": "<span class=\"icon icon-red\">PM</span><p>Perfect Money</p>",
+        "value": {
+            "data": {
+                "id": 1,
+                "name": "perfect_money_usd",
+                "deposit": true,
+                "currency": "usd",
+                "is_fiat": true,
+                "additional_field": null
+            },
+            "limits": {
+                "invest": {
+                    "min": "10.0",
+                    "max": "30000.0"
+                },
+                "reinvest": {
+                    "min": "10.0",
+                    "max": "30000.0"
+                }
+            },
+            "meta": {
+                "balance": 0
+            }
+        }
+    }, {
+        "label": "<span class=\"icon icon-blue\">PR</span><p>Payeer</p>",
+        "value": {
+            "data": {
+                "id": 2,
+                "name": "payeer_usd",
+                "deposit": true,
+                "currency": "usd",
+                "is_fiat": true,
+                "additional_field": null
+            },
+            "limits": {
+                "invest": {
+                    "min": "10.0",
+                    "max": "30000.0"
+                },
+                "reinvest": {
+                    "min": "10.0",
+                    "max": "30000.0"
+                }
+            },
+            "meta": {
+                "balance": 0
+            }
+        }
+    }, {
+        "label": "<span class=\"icon icon-green\"><img src=\"/user_assets/images/bitcoin_cash.png\" alt=\"bch\"></span><p>Bitcoin Cash</p>",
+        "value": {
+            "data": {
+                "id": 4,
+                "name": "bitcoin_cash",
+                "deposit": true,
+                "currency": "bch",
+                "is_fiat": false,
+                "additional_field": null
+            },
+            "limits": {
+                "invest": {
+                    "min": "0.025",
+                    "max": "75.0"
+                },
+                "reinvest": {
+                    "min": "0.025",
+                    "max": "75.0"
+                }
+            },
+            "meta": {
+                "exchange": 281.76,
+                "balance": 0
+            }
+        }
+    }, {
+        "label": "<span class=\"icon\"><img src=\"/user_assets/images/bitcoin_gold.png\" alt=\"btg\"></span><p>Bitcoin Gold</p>",
+        "value": {
+            "data": {
+                "id": 11,
+                "name": "bitcoin_gold",
+                "deposit": true,
+                "currency": "btg",
+                "is_fiat": false,
+                "additional_field": null
+            },
+            "limits": {
+                "invest": {
+                    "min": "0.4",
+                    "max": "1200.0"
+                },
+                "reinvest": {
+                    "min": "0.4",
+                    "max": "1200.0"
+                }
+            },
+            "meta": {
+                "exchange": 27.21,
+                "balance": 0
+            }
+        }
+    }, {
+        "label": "<span class=\"icon\"><img src=\"/user_assets/images/dash.png\" alt=\"dash\"></span><p>Dash</p>",
+        "value": {
+            "data": {
+                "id": 13,
+                "name": "dash",
+                "deposit": true,
+                "currency": "dash",
+                "is_fiat": false,
+                "additional_field": null
+            },
+            "limits": {
+                "invest": {
+                    "min": "0.06",
+                    "max": "180.0"
+                },
+                "reinvest": {
+                    "min": "0.06",
+                    "max": "180.0"
+                }
+            },
+            "meta": {
+                "exchange": 123.01,
+                "balance": 0
+            }
+        }
+    }, {
+        "label": "<span class=\"icon\" style=\"background-color:#000;\"><img src=\"/user_assets/images/eos.svg\" alt=\"eos\"></span><p>EOS</p>",
+        "value": {
+            "data": {
+                "id": 9,
+                "name": "eos",
+                "deposit": true,
+                "currency": "eos",
+                "is_fiat": false,
+                "additional_field": {
+                    "key": "memo",
+                    "name": "Memo",
+                    "validation": []
+                }
+            },
+            "limits": {
+                "invest": {
+                    "min": "1.5",
+                    "max": "4250.0"
+                },
+                "reinvest": {
+                    "min": "1.5",
+                    "max": "4250.0"
+                }
+            },
+            "meta": {
+                "exchange": 4.1138,
+                "balance": 0
+            }
+        }
+    }, {
+        "label": "<span class=\"icon icon-violet\"><img src=\"/user_assets/images/ethereum.png\" alt=\"eth\"></span><p>Ethereum</p>",
+        "value": {
+            "data": {
+                "id": 6,
+                "name": "ethereum",
+                "deposit": true,
+                "currency": "eth",
+                "is_fiat": false,
+                "additional_field": null
+            },
+            "limits": {
+                "invest": {
+                    "min": "0.06",
+                    "max": "120.0"
+                },
+                "reinvest": {
+                    "min": "0.06",
+                    "max": "120.0"
+                }
+            },
+            "meta": {
+                "exchange": 226.25,
+                "balance": 0
+            }
+        }
+    }, {
+        "label": "<span class=\"icon\"><img src=\"/user_assets/images/ethereum_classic.png\" alt=\"etc\"></span><p>Ethereum Classic</p>",
+        "value": {
+            "data": {
+                "id": 10,
+                "name": "ethereum_classic",
+                "deposit": true,
+                "currency": "etc",
+                "is_fiat": false,
+                "additional_field": null
+            },
+            "limits": {
+                "invest": {
+                    "min": "1.25",
+                    "max": "3750.0"
+                },
+                "reinvest": {
+                    "min": "1.25",
+                    "max": "3750.0"
+                }
+            },
+            "meta": {
+                "exchange": 5.6683,
+                "balance": 0
+            }
+        }
+    }, {
+        "label": "<span class=\"icon icon-gray\"><img src=\"/user_assets/images/litecoin.png\" alt=\"ltc\"></span><p>Litecoin</p>",
+        "value": {
+            "data": {
+                "id": 5,
+                "name": "litecoin",
+                "deposit": true,
+                "currency": "ltc",
+                "is_fiat": false,
+                "additional_field": null
+            },
+            "limits": {
+                "invest": {
+                    "min": "0.13",
+                    "max": "330.0"
+                },
+                "reinvest": {
+                    "min": "0.13",
+                    "max": "330.0"
+                }
+            },
+            "meta": {
+                "exchange": 89.58,
+                "balance": 0
+            }
+        }
+    }, {
+        "label": "<span class=\"icon\"><img src=\"/user_assets/images/ripple.svg\" alt=\"xrp\"></span><p>Ripple</p>",
+        "value": {
+            "data": {
+                "id": 8,
+                "name": "ripple",
+                "deposit": true,
+                "currency": "xrp",
+                "is_fiat": false,
+                "additional_field": {
+                    "key": "destination_tag",
+                    "name": "Destination Tag",
+                    "validation": ["numeric"]
+                }
+            },
+            "limits": {
+                "invest": {
+                    "min": "25.0",
+                    "max": "72000.0"
+                },
+                "reinvest": {
+                    "min": "25.0",
+                    "max": "72000.0"
+                }
+            },
+            "meta": {
+                "exchange": 0.30409,
+                "balance": 0
+            }
+        }
+    }, {
+        "label": "<span class=\"icon icon-red\" style=\"background-color:#c53127;\"><img src=\"/user_assets/images/tron.png\" alt=\"trx\" style=\"margin-top: 5px\"></span><p>Tron</p>",
+        "value": {
+            "data": {
+                "id": 7,
+                "name": "tron",
+                "deposit": true,
+                "currency": "trx",
+                "is_fiat": false,
+                "additional_field": null
+            },
+            "limits": {
+                "invest": {
+                    "min": "328.0",
+                    "max": "1000000.0"
+                },
+                "reinvest": {
+                    "min": "328.0",
+                    "max": "1000000.0"
+                }
+            },
+            "meta": {
+                "exchange": 0.02517,
+                "balance": 0
+            }
+        }
+    }, {
+        "label": "<span class=\"icon\"><img src=\"/user_assets/images/zcash.png\" alt=\"zec\"></span><p>Zcash</p>",
+        "value": {
+            "data": {
+                "id": 12,
+                "name": "zcash",
+                "deposit": true,
+                "currency": "zec",
+                "is_fiat": false,
+                "additional_field": null
+            },
+            "limits": {
+                "invest": {
+                    "min": "0.085",
+                    "max": "260.0"
+                },
+                "reinvest": {
+                    "min": "0.085",
+                    "max": "260.0"
+                }
+            },
+            "meta": {
+                "exchange": 82.3,
+                "balance": 0
+            }
+        }
+    }]

@@ -1,0 +1,86 @@
+{
+    "bitcoin": {
+        "icon": "<span class=\"icon icon-orange\"><img src=\"/images/bitcoin.png\" alt=\"btc\"></span>",
+        "name": "Bitcoin",
+        "is_fiat": false,
+        "currency": "btc"
+    },
+    "bitcoin_cash": {
+        "icon": "<span class=\"icon icon-green\"><img src=\"/images/bitcoin_cash.png\" alt=\"bch\"></span>",
+        "name": "Bitcoin Cash",
+        "is_fiat": false,
+        "currency": "bch"
+    },
+    "ethereum": {
+        "icon": "<span class=\"icon icon-violet\"><img src=\"/images/ethereum.png\" alt=\"eth\"></span>",
+        "name": "Ethereum",
+        "is_fiat": false,
+        "currency": "eth"
+    },
+    "litecoin": {
+        "icon": "<span class=\"icon icon-gray\"><img src=\"/images/litecoin.png\" alt=\"ltc\"></span>",
+        "name": "Litecoin",
+        "is_fiat": false,
+        "currency": "ltc"
+    },
+    "perfect_money_usd": {
+        "icon": "<span class=\"icon icon-red\">PM</span>",
+        "name": "Perfect Money",
+        "is_fiat": true,
+        "currency": "usd"
+    },
+    "payeer_usd": {
+        "icon": "<span class=\"icon icon-blue\">PR</span>",
+        "name": "Payeer",
+        "is_fiat": true,
+        "currency": "usd"
+    },
+    "tron": {
+        "icon": "<span class=\"icon icon-red\" style=\"background-color:#c53127;\"><img src=\"/images/tron.png\" alt=\"trx\" style=\"margin-top: 5px\"></span>",
+        "name": "Tron",
+        "is_fiat": false,
+        "currency": "trx"
+    },
+    "ripple": {
+        "icon": "<span class=\"icon\"><img src=\"/images/ripple.svg\" alt=\"xrp\"></span>",
+        "name": "Ripple",
+        "is_fiat": false,
+        "currency": "xrp"
+    },
+    "eos": {
+        "icon": "<span class=\"icon\" style=\"background-color:#000;\"><img src=\"/images/eos.svg\" alt=\"eos\"></span>",
+        "name": "EOS",
+        "is_fiat": false,
+        "currency": "eos"
+    },
+    "ethereum_classic": {
+        "icon": "<span class=\"icon\"><img src=\"/images/ethereum_classic.png\" alt=\"etc\"></span>",
+        "name": "Ethereum Classic",
+        "is_fiat": false,
+        "currency": "etc"
+    },
+    "bitcoin_gold": {
+        "icon": "<span class=\"icon\"><img src=\"/images/bitcoin_gold.png\" alt=\"btg\"></span>",
+        "name": "Bitcoin Gold",
+        "is_fiat": false,
+        "currency": "btg"
+    },
+    "zcash": {
+        "icon": "<span class=\"icon\"><img src=\"/images/zcash.png\" alt=\"zec\"></span>",
+        "name": "Zcash",
+        "is_fiat": false,
+        "currency": "zec"
+    },
+    "monero": {
+        "icon": "<span class=\"icon\"><img src=\"/images/monero.png\" alt=\"xmr\"></span>",
+        "name": "Monero",
+        "is_fiat": false,
+        "currency": "xmr"
+    },
+    "dash": {
+        "icon": "<span class=\"icon\"><img src=\"/images/dash.png\" alt=\"dash\"></span>",
+        "name": "Dash",
+        "is_fiat": false,
+        "currency": "dash"
+    }
+}
